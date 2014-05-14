@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  StoryViewController.h
 //  Adventure
 //
 //  Created by Ryan Tiltz on 5/13/14.
@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface StoryViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextView *resultMessage;
 
 @end

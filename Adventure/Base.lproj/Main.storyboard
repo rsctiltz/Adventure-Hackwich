@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Ryan wakes up in the Mobile Maker space surrounded by empty pizza boxes." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="5Xa-AD-uMo">
-                                <rect key="frame" x="0.0" y="31" width="320" height="95"/>
+                                <rect key="frame" x="0.0" y="31" width="320" height="121"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -30,15 +30,18 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="5JD-tu-mVw" kind="push" id="WpV-dn-SEy"/>
+                                    <segue destination="fGp-xV-eSp" kind="push" id="Uj3-cW-E2N"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="74f-pE-fvO">
                                 <rect key="frame" x="103" y="278" width="115" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Eat Boxes">
+                                <state key="normal" title="Eat boxes">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="M3g-Oh-XGM" kind="push" id="jFb-Fl-FvS"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -47,26 +50,148 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="453" y="131"/>
+            <point key="canvasLocation" x="215" y="-1613"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="1Ug-5I-80B">
+        <!--Story View Controller-->
+        <scene sceneID="Y2i-a8-t6I">
             <objects>
-                <viewController id="5JD-tu-mVw" sceneMemberID="viewController">
+                <viewController id="M3g-Oh-XGM" customClass="StoryViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Yoi-mM-VjR"/>
-                        <viewControllerLayoutGuide type="bottom" id="eLe-lq-Ggt"/>
+                        <viewControllerLayoutGuide type="top" id="JyA-rc-3TZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="RFw-3P-8Gf"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="9kg-6I-e6N">
+                    <view key="view" contentMode="scaleToFill" id="xxb-U3-hr6">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Ryan gets his stomach pumped. The end." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Car-rL-dUl">
+                                <rect key="frame" x="0.0" y="108" width="320" height="307"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m8W-ox-4tz">
+                                <rect key="frame" x="59" y="298" width="180" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Nice Ending">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="thh-RX-Ev7" kind="push" id="RFC-Qs-cw6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c2Q-1C-KXB">
+                                <rect key="frame" x="60" y="385" width="200" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Not so nice...">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="NdL-f8-vbY" kind="push" id="M3e-Yj-DTB"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="msh-tz-q7X"/>
+                    <navigationItem key="navigationItem" id="CKp-df-FMZ"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zhS-NM-TCl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5wu-Ya-w0H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="839" y="127"/>
+            <point key="canvasLocation" x="993" y="-1164"/>
+        </scene>
+        <!--Story View Controller-->
+        <scene sceneID="R5t-53-KJP">
+            <objects>
+                <viewController id="NdL-f8-vbY" customClass="StoryViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MuD-Vf-cPa"/>
+                        <viewControllerLayoutGuide type="bottom" id="hTv-vc-SB5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vmH-EM-rBp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Maybe.....he pukes a puppy." borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4xB-fd-HG3">
+                                <rect key="frame" x="37" y="269" width="268" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cev-Sg-K6H">
+                                <rect key="frame" x="120" y="125" width="75" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Unwind">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="tSj-iQ-MvJ" kind="unwind" unwindAction="unwindToBeginning:" id="lc0-uS-jcs"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="UD9-M6-brZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nda-Xy-kkr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="tSj-iQ-MvJ" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1756" y="-651"/>
+        </scene>
+        <!--Story View Controller-->
+        <scene sceneID="gIL-NR-Tv3">
+            <objects>
+                <viewController id="fGp-xV-eSp" customClass="StoryViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lz9-be-yCS"/>
+                        <viewControllerLayoutGuide type="bottom" id="jN0-mp-3Ur"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="y2I-ha-y0A">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Ryan gets married with four children. The end." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ma0-PK-iKr">
+                                <rect key="frame" x="0.0" y="162" width="320" height="126"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Epa-q0-ZX7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UGs-3r-ZqH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="953" y="-2266"/>
+        </scene>
+        <!--Story View Controller-->
+        <scene sceneID="hC6-jc-BW4">
+            <objects>
+                <viewController id="thh-RX-Ev7" customClass="StoryViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gaC-nP-ZVB"/>
+                        <viewControllerLayoutGuide type="bottom" id="KdI-Hw-EXh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nDC-bg-lWR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Maybe....he gets a hot nurse" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DAL-Xc-m71">
+                                <rect key="frame" x="37" y="269" width="241" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="MWo-BJ-ZQe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Aq4-B9-UVs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1740" y="-1526"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="59X-mf-UHc">
@@ -81,7 +206,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0DU-Cc-MoY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="56" y="119"/>
+            <point key="canvasLocation" x="-548" y="-1621"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

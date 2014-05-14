@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BA081E0F-558C-4601-A0BC-E863FA69C529</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Adventure</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>06AD5B1D-AE4B-4F35-B80E-70ED72422F55</key>
+		<string>https://github.com/rsctiltz/Adventure-Hackwich.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Adventure.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>06AD5B1D-AE4B-4F35-B80E-70ED72422F55</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rsctiltz/Adventure-Hackwich.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>06AD5B1D-AE4B-4F35-B80E-70ED72422F55</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>06AD5B1D-AE4B-4F35-B80E-70ED72422F55</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Adventure</string>
+		</dict>
+	</array>
+</dict>
+</plist>

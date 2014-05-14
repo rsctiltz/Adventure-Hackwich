@@ -7,23 +7,28 @@
 //
 
 #import "ViewController.h"
+#import "StoryViewController.h"
 
 @interface ViewController ()
+
+@property (strong, nonatomic) IBOutlet UILabel *resultLabel;
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(UIButton *)sender
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    StoryViewController *nextViewController = [segue destinationViewController];
+    nextViewController.title = sender.currentTitle;
+
 }
 
-- (void)didReceiveMemoryWarning
+- (IBAction)unwindToBeginning:(UIStoryboardSegue *)unwindSegue
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    StoryViewController *source;
+    source = [unwindSegue sourceViewController];
+    self.resultLabel.text = source.resultMessage.text;
+    self.title = @"";
 }
-
 @end

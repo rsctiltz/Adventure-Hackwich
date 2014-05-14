@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D01A030E1923115700D8328B /* CheckMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D01A030D1923115700D8328B /* CheckMate.framework */; };
+		D024AB201922BF9500144179 /* StoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D024AB1F1922BF9500144179 /* StoryViewController.m */; };
 		D0B35FEF1922A57100CC2BA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B35FEE1922A57100CC2BA1 /* Foundation.framework */; };
 		D0B35FF11922A57100CC2BA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B35FF01922A57100CC2BA1 /* CoreGraphics.framework */; };
 		D0B35FF31922A57100CC2BA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B35FF21922A57100CC2BA1 /* UIKit.framework */; };
@@ -21,7 +23,6 @@
 		D0B360101922A57100CC2BA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B35FF21922A57100CC2BA1 /* UIKit.framework */; };
 		D0B360181922A57100CC2BA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0B360161922A57100CC2BA1 /* InfoPlist.strings */; };
 		D0B3601A1922A57100CC2BA1 /* AdventureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B360191922A57100CC2BA1 /* AdventureTests.m */; };
-		D0EF682D1922AACB00C98799 /* CheckMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EF682C1922AACB00C98799 /* CheckMate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D01A030D1923115700D8328B /* CheckMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CheckMate.framework; path = ../../../../Downloads/CheckMate.framework; sourceTree = "<group>"; };
+		D024AB1E1922BF9500144179 /* StoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryViewController.h; sourceTree = "<group>"; };
+		D024AB1F1922BF9500144179 /* StoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryViewController.m; sourceTree = "<group>"; };
 		D0B35FEB1922A57100CC2BA1 /* Adventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B35FEE1922A57100CC2BA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D0B35FF01922A57100CC2BA1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -54,7 +58,6 @@
 		D0B360151922A57100CC2BA1 /* AdventureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdventureTests-Info.plist"; sourceTree = "<group>"; };
 		D0B360171922A57100CC2BA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D0B360191922A57100CC2BA1 /* AdventureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdventureTests.m; sourceTree = "<group>"; };
-		D0EF682C1922AACB00C98799 /* CheckMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CheckMate.framework; path = ../../../../Downloads/CheckMate.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0EF682D1922AACB00C98799 /* CheckMate.framework in Frameworks */,
+				D01A030E1923115700D8328B /* CheckMate.framework in Frameworks */,
 				D0B35FF11922A57100CC2BA1 /* CoreGraphics.framework in Frameworks */,
 				D0B35FF31922A57100CC2BA1 /* UIKit.framework in Frameworks */,
 				D0B35FEF1922A57100CC2BA1 /* Foundation.framework in Frameworks */,
@@ -104,7 +107,7 @@
 		D0B35FED1922A57100CC2BA1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D0EF682C1922AACB00C98799 /* CheckMate.framework */,
+				D01A030D1923115700D8328B /* CheckMate.framework */,
 				D0B35FEE1922A57100CC2BA1 /* Foundation.framework */,
 				D0B35FF01922A57100CC2BA1 /* CoreGraphics.framework */,
 				D0B35FF21922A57100CC2BA1 /* UIKit.framework */,
@@ -119,6 +122,8 @@
 				D0B35FFD1922A57100CC2BA1 /* AppDelegate.h */,
 				D0B35FFE1922A57100CC2BA1 /* AppDelegate.m */,
 				D0B360001922A57100CC2BA1 /* Main.storyboard */,
+				D024AB1E1922BF9500144179 /* StoryViewController.h */,
+				D024AB1F1922BF9500144179 /* StoryViewController.m */,
 				D0B360031922A57100CC2BA1 /* ViewController.h */,
 				D0B360041922A57100CC2BA1 /* ViewController.m */,
 				D0B360061922A57100CC2BA1 /* Images.xcassets */,
@@ -253,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D024AB201922BF9500144179 /* StoryViewController.m in Sources */,
 				D0B360051922A57100CC2BA1 /* ViewController.m in Sources */,
 				D0B35FFF1922A57100CC2BA1 /* AppDelegate.m in Sources */,
 				D0B35FFB1922A57100CC2BA1 /* main.m in Sources */,
